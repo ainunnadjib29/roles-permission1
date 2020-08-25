@@ -15,7 +15,7 @@ use Spatie\Permission\Models\Role;
 Route::get('/', function () {
     return view('welcome');
     //$role = Role::find(2);
-    //$role->givePermissionTo('create');
+    //$role->givePermissionTo('user-profile');
 
 });
 
